@@ -15,7 +15,7 @@ describe 'fizzbuzz' do
             number = 5
             expect(solver.fizzbuzz(number)).to eq('buzz')
        end
-       it 'returns the fizz string as it is divisible by 5' do
+       it 'returns the fizz string as it is not divisible by 5 nor 3' do
             number = 7
             expect(solver.fizzbuzz(number)).to eq(number)
        end

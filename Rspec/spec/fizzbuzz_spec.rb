@@ -1,11 +1,15 @@
 require './Rspec/lib/Solver'
 
 describe 'fizzbuzz' do
-    context 'Given one numbers' do
+    context 'Given one number' do
         solver = Solver.new()
-          it 'returns the fizzbuzz string as it is divisible by 3 and 5' do
-               number = 15
-               expect(solver.fizzbuzz(number)).to eq('fizzbuzz')
-          end
+        it 'returns the fizzbuzz string as it is divisible by 3 and 5' do
+            number = 15
+            expect(solver.fizzbuzz(number)).to eq('fizzbuzz')
+        end
+        it 'returns the fizz string as it is divisible by 3' do
+            number = 3
+            expect(solver.fizzbuzz(number)).to eq('fizz')
+       end
      end
 end

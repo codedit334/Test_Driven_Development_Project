@@ -7,5 +7,9 @@ describe '#reverse' do
       string = 'Hello'
       expect(solver.reverse(string)).to eq('olleH')
     end
+    it 'returns the reverse string' do
+      string = 'Good to be home'
+      expect(solver.reverse(string)).to eq('emoh eb ot dooG')
+    end
   end
 end

@@ -1,5 +1,8 @@
 class Solver
   def factorial(n)
+    if n < 0
+      return "Error! number is negative."
+    end
     result = 1
     (1..n).each { |i| result *= i }
     result

@@ -8,7 +8,9 @@ class Solver
     result
   end
 
-  def reverse; end
+  def reverse(str)
+    return str.reverse
+  end
 
   def fizzbuzz(num)
     return 'fizzbuzz' if (num % 15).zero?

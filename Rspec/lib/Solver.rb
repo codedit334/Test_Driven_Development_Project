@@ -1,15 +1,14 @@
 class Solver
-  def factorial(n)
-    if n < 0
-      return "Error! number is negative."
-    end
+  def factorial(num)
+    return 'Error! number is negative.' if num.negative?
+
     result = 1
-    (1..n).each { |i| result *= i }
+    (1..num).each { |i| result *= i }
     result
   end
 
   def reverse(str)
-    return str.reverse
+    str.reverse
   end
 
   def fizzbuzz(num)

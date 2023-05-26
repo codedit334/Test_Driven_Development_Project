@@ -1,4 +1,4 @@
-require_relative '../lib/Solver'
+require_relative '../lib/solver'
 
 describe 'fizzbuzz' do
   context 'Given one number' do

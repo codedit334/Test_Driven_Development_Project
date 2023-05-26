@@ -1,5 +1,9 @@
 class Solver
-  def factorial; end
+  def factorial(n)
+    result = 1
+    (1..n).each { |i| result *= i }
+    result
+  end
 
   def reverse; end
 

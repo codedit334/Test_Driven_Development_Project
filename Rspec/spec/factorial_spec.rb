@@ -7,5 +7,8 @@ describe Solver do
         expect(Solver.factorial(1)).to eq 1
         expect(Solver.factorial(5)).to eq 120
       end
+      it 'raises an exception for negative integers' do
+        expect { Solver.factorial(-5) }.to raise_error(ArgumentError, 'Factorial is defined for non-negative integers.')
+      end
     end
 end

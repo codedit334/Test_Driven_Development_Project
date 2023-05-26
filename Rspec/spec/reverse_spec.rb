@@ -1,4 +1,4 @@
-require_relative '../lib/solver'
+require_relative '../lib/sol_ver'
 
 describe '#reverse' do
   context 'Given a string' do

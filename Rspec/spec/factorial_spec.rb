@@ -1,4 +1,4 @@
-require_relative '../lib/solver'
+require_relative '../lib/sol_ver'
 
 describe '#factorial' do
   context 'Given a positive integer' do

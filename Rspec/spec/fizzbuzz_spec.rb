@@ -1,4 +1,4 @@
-require './Rspec/lib/solver'
+require_relative '../lib/Solver'
 
 describe 'fizzbuzz' do
   context 'Given one number' do

@@ -1,4 +1,4 @@
-require './Rspec/lib/solver'
+require_relative '../lib/Solver'
 
 describe '#reverse' do
   context 'Given a string' do

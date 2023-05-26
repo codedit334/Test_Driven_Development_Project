@@ -1,4 +1,4 @@
-require './Rspec/lib/solver'
+require_relative '../lib/Solver'
 
 describe '#factorial' do
     context 'Given a positive integer' do

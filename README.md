@@ -1,5 +1,5 @@
 <a name="readme-top"></a>
-  <h3><b>School Library</b></h3>
+  <h3><b>TDD Project</b></h3>
 
 # 📗 Table of Contents
 
@@ -22,9 +22,9 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 [School Library] <a name="about-project"></a>
+# 📖 [TDD Project] <a name="about-project"></a>
 
-**[Vet clinic database]** is a project at <a href='https://www.microverse.org/'>Microverse</a>. It's an app that records what books are in the library and who borrows them.
+**[TDD Project]** is a project at <a href='https://www.microverse.org/'>Microverse</a>. It's an app that solves multiple problems like Factorial, Reverse string and Fizzbuzz, it's built using Test driven development technique.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -40,11 +40,9 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[Add new student]**
-- **[Add new teacher]**
-- **[Add new book]**
-- **[Save records of who borrowed a given book and when]**
-- **[Refactored the code to meet the best practices]**
+- **[Factorial]**
+- **[Reverse-String]**
+- **[Fizzbuzz]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -59,7 +57,7 @@ Ruby version >= 2.7.0
 Clone this repository to your desired folder:
 sh
   cd my-folder
- git clone https://github.com/ernestmusong/School-library.git
+ git clone https://github.com/codedit334/Test_Driven_Development_Project.git
 
  ### Install:
  Run: bundle install
@@ -96,8 +94,7 @@ sh
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Intend to use this app with a framework]**
-- [ ] **[Intend to add email field]**
+- [ ] **[Fibonacci]**
  
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -105,7 +102,7 @@ sh
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/ernestmusong/School-library/issues).
+Feel free to check the [issues page](https://github.com/codedit334/Test_Driven_Development_Project/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -123,6 +120,6 @@ If you like this project, give it a star please!
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 📝 License <a name="license"></a>
-  This project is [MIT](./LICENSE.txt) licensed.
+  This project is [MIT](./LICENSE.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
